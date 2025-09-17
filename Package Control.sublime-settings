@@ -9,12 +9,15 @@
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
-		"Color Highlighter",
-		"ColorPicker",
+		"BracketHighlighter",
+		"Color Highlight",
+		"Dracula Color Scheme",
 		"Emmet",
 		"ERB Snippets",
 		"Git",
+		"Latest Migration",
 		"Package Control",
+		"PackageResourceViewer",
 		"React ES6 Snippets",
 		"RSpec",
 		"SCSS",
@@ -24,6 +27,7 @@
 		"SublimeLinter-php",
 		"SublimeLinter-rubocop",
 		"Tailwind CSS Autocomplete",
-		"Theme - City Lights"
+		"Theme - One Dark",
+		"Theme - TwoDark"
 	]
 }
