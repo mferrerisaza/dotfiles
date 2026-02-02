@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Cursor.app/Contents/Resources/app/bin/cursor' --wait
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -54,7 +54,7 @@
   mergeoptions = --no-edit
 [user]
 	email = mferrer@hey.com
-	name = Miguel Ferrer Isaza
+	name = Miguel Ferrer
 [init]
 	defaultBranch = main
 [filter "lfs"]
