@@ -1,0 +1,88 @@
+{
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "editor.fontSize": 10,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.useTabStops": true,
+  "editor.renderWhitespace": "all",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "editor.rulers": [
+    100
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/_site": true,
+    "**/tmp": true,
+    "**/.bundle": true,
+    "**/.sass-cache": true,
+    "**/.asset-cache": true,
+    "**/build": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/public/packs": true,
+    "**/coverage": true,
+    "*.css.map": true,
+    "*.js.map": true,
+    "app/assets/builds/application.js": true,
+    "app/assets/builds/style.css": true
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.wordWrap": "off",
+  "search.smartCase": true,
+  "files.hotExit": "off",
+  "editor.smoothScrolling": false,
+  "zenMode.fullScreen": true,
+  "editor.find.addExtraSpaceOnTop": false,
+  "search.searchOnType": false,
+  "search.showLineNumbers": true,
+  "search.useGlobalIgnoreFiles": true,
+  "search.actionsPosition": "right",
+  "search.mode": "newEditor",
+  "editor.minimap.enabled": true,
+  "editor.minimap.scale": 1,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.renderCharacters": false,
+  "zenMode.showTabs": "single",
+  "editor.formatOnPaste": true,
+  "editor.gotoLocation.multipleDeclarations": "peek",
+  "editor.gotoLocation.multipleDefinitions": "peek",
+  "editor.gotoLocation.multipleImplementations": "peek",
+  "editor.gotoLocation.multipleReferences": "peek",
+  "editor.gotoLocation.multipleTypeDefinitions": "peek",
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "formatting": true,
+    "definition": true,
+    "hover": true,
+    "completion": true
+  },
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rbenv"
+  },
+  "rubyLsp.rails": true,
+  "rubyLsp.bundlerPath": "/usr/local/bin/bundle",
+  "explorer.confirmDelete": false,
+  "cursor.composer.textSizeScale": 0.85,
+  "[erb]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[ruby]": {
+    "editor.defaultColorDecorators": "never"
+  },
+  "claudeCode.environmentVariables": [],
+  "claudeCode.useTerminal": true,
+  "editor.codeActionsOnSave": {},
+  "claudeCode.preferredLocation": "panel",
+}
