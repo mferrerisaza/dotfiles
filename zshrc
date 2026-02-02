@@ -59,7 +59,7 @@ command -v pyenv > /dev/null && eval "$(pyenv init --path)"
 
 export ES_JAVA_HOME="$(brew --prefix openjdk)/libexec/openjdk.jdk/Contents/Home"
 
-eval "$(~/.local/try.rb init ~/src/tries)"
+[[ -x "$HOME/.local/try.rb" ]] && eval "$(~/.local/try.rb init ~/src/tries)"
 
 # Homebrew prefix (Apple Silicon vs Intel)
 BREW_PREFIX=$(brew --prefix 2>/dev/null || echo "/opt/homebrew")
@@ -82,6 +82,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Editor for bundler
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
